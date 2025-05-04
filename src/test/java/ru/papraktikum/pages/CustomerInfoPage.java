@@ -12,12 +12,12 @@ import java.time.Duration;
 
 // Временно добавил комментарий для обновления коммита
 
-public class OrderFormPage {
+public class CustomerInfoPage {
     private WebDriver driver;
     private WebDriverWait wait;
 
 
-    public OrderFormPage (WebDriver driver) {
+    public CustomerInfoPage (WebDriver driver) {
         this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(3));
     }
